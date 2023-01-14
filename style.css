@@ -1,0 +1,19 @@
+h1,
+h2,
+h3 {
+  color: hsl(225, 50%, 30%);
+}
+
+@media (prefers-color-scheme:dark) {
+
+  h1,
+  h2,
+  h3 {
+    color: hsl(225, 50%, 80%);
+  }
+
+}
+
+/* .some-element{
+  color-scheme: light;
+} */
